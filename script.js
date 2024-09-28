@@ -9,7 +9,7 @@ document.getElementById("increment").addEventListener("click", function() {
     updateUI();
 });
 
-document.getElementById("decrement").addEventListener("click", function() {
+document.getElementById("decrement").addEventListener("click", function() { 
     if (count > 0) {
         count--;
         errorElement.style.display = "none";
